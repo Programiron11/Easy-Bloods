@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+        <html lang="en-GB">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>About Us - Easy Bloods</title>
+            <meta name="description" content="Learn more about Easy Bloods, our mission to empower your health journey, and our commitment to providing reliable and convenient blood testing services.">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <link rel="stylesheet" href="style.css">
+            <link rel="canonical" href="https://easybloods.com/about-us/">
+            <style>
+                /* Inlined styles to make the header white */
+                body {
+                    font-family: sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                    color: #333;
+                }
+                .container {
+                    max-width: 1200px;
+                    margin: auto;
+                    padding: 20px;
+                }
+                header {
+                    background-color: #fff; /* Changed to white */
+                    color: #333; /* Changed text colour to dark */
+                    padding: 1em 0;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    border-bottom: 1px solid #ddd; /* Optional: Add a subtle border */
+                }
+                header .logo img {
+                    height: 180px; /* Adjust as needed */
+                    width: auto;
+                }
+                nav ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    gap: 20px;
+                }
+                nav a {
+                    color: #333; /* Changed text colour to dark */
+                    text-decoration: none;
+                }
+                nav a.active {
+                    font-weight: bold;
+                    color: #CE6A85; /* Keeping the active link colour */
+                }
+                .header-icons a {
+                    color: #333; /* Changed icon colour to dark */
+                    font-size: 1.5em;
+                    margin: 0 10px;
+                }
+                main {
+                    padding: 20px;
+                }
+                .about-us-page h1, .about-us-page h2 {
+                    color: #5C374C;
+                    text-align: center;
+                }
+                .about-us-page p, .about-us-page li {
+                    color: #985277;
+                }
+                .about-us-page ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                .about-us-page li strong {
+                    color: #5C374C;
+                }
+                 .team-section {
+                    margin-top: 30px;
+                }
+
+                .team-section h2 {
+                    color: #5C374C;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                .team-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 20px;
+                }
+
+                .team-member {
+                    background-color: #fff;
+                    padding: 15px;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    text-align: center;
+                }
+
+                .team-member img {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-bottom: 10px;
+                }
+
+                .team-member h3 {
+                    color: #5C374C;
+                    margin-bottom: 5px;
+                }
+
+                .team-member .title {
+                    color: #985277;
+                    font-style: italic;
+                    margin-bottom: 10px;
+                }
+
+                .button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+
+                .button.secondary {
+                    background-color: #CE6A85;
+                    color: #fff;
+                    border: 2px solid #CE6A85;
+                }
+
+                footer {
+                    background-color: #5C374C;
+                    color: #f9f9f9;
+                    padding: 20px 0;
+                    text-align: center;
+                }
+
+                footer .container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+
+                footer p {
+                    margin: 0;
+                    font-size: 0.9em;
+                }
+
+                footer .footer-social {
+                    text-align: right;
+                }
+
+                footer .footer-social h3 {
+                    color: #CE6A85;
+                    margin-bottom: 10px;
+                }
+
+                footer .footer-social a {
+                    color: #f9f9f9;
+                    font-size: 1.5em;
+                    margin-right: 10px;
+                }
+
+                footer nav ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 10px 0;
+                    display: flex;
+                    gap: 20px;
+                    justify-content: center;
+                }
+
+                footer nav a {
+                    color: #f9f9f9;
+                    text-decoration: none;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <div class="logo">
+                    <a href="/"><img src="https://i.ibb.co/d0h9QHN4/easy-Bloods.jpg" alt="Easy Bloods Logo"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li class="dropdown">
+                            <a href="/tests">Tests <i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="/tests/health-screening">Health Screening</a>
+                                <a href="/tests/allergy-intolerance">Allergy & Intolerance</a>
+                                <a href="/tests/immunity-tests">Immunity Tests</a>
+                                <a href="/tests/drug-testing">Drug Testing</a>
+                                <a href="/tests/blood-collection-kits">Blood Collection Kits</a>
+                            </div>
+                        </li>
+                        <li><a href="/about-us" class="active">About Us</a></li>
+                        <li><a href="/how-it-works">How It Works</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <a href="/wishlist" aria-label="Wishlist"><i class="far fa-heart"></i></a>
+                    <a href="/cart" aria-label="Shopping Cart"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="/account" aria-label="User Account"><i class="fas fa-user-circle"></i></a>
+                    <a href="/search" aria-label="Search"><i class="fas fa-search"></i></a>
+                </div>
+            </header>
+
+            <main class="container">
+                <section class="about-us-page">
+                    <h1>About Easy Bloods</h1>
+                    <p>Welcome to Easy Bloods, your trusted partner for convenient and reliable blood testing. Established in 2010, our central mission is to empower individuals like you to take a proactive stance on your health through straightforward access to comprehensive diagnostic testing. We fully appreciate that your health journey is deeply personal, and we are steadfast in our commitment to providing you with results that are not only accurate and timely but also delivered with the utmost confidentiality, all within a comfortable and easily accessible framework.</p>
+
+                    <h2>Our Expertise: The Science You Can Rely On</h2>
+                    <p>At the heart of Easy Bloods is a dedicated team of seasoned healthcare professionals and certified laboratory technicians, all deeply committed to upholding the very highest standards of quality and precision. We have forged strong partnerships with fully accredited laboratories, ensuring that each and every test is processed with meticulous attention to detail and the utmost care. This collaborative approach allows us to bring you results you can have genuine confidence in.</p>
+
+                    <h2>Our Commitment to You: Putting Your Needs First</h2>
+                    <p>Our dedication to your well-being is reflected in every aspect of our service:</p>
+                    <ul>
+                        <li><strong>Convenience, Plain and Simple:</strong> Order the tests you need online, and with our easy-to-use kits, you can collect your samples in the familiar surroundings of your own home.</li>
+                        <li><strong>Unwavering Confidentiality:</strong> Your privacy is paramount. We employ stringent measures to ensure your personal information and test results remain secure and confidential.</li>
+                        <li><strong>Assured Accuracy:</strong> We understand the importance of reliable results for your health decisions. Our rigorous processes and accredited lab partners guarantee the accuracy you deserve.</li>
+                        <li><strong>Dedicated Support, Every Step of the Way:</strong> From choosing the right test to understanding your results, our expert support team is readily available to provide clear guidance and assistance.</li>
+                    </ul>
+                    <p>We firmly believe that taking a proactive approach to your health begins with having the right information at your fingertips. By offering accessible and dependable blood testing services, our aim is to empower you with the knowledge necessary to make well-informed decisions about your health and well-being.</p>
+
+                    <div class="team-section">
+                        <h2>Meet the Dedicated Professionals Behind Easy Bloods</h2>
+                        <p>Our committed team works diligently behind the scenes and directly with you to ensure you receive a service that is both effective and supportive.</p>
+                        <div class="team-grid">
+                            <div class="team-member">
+                                <img src="https://via.placeholder.com/150?text=Dr.+Aisha+Khan" alt="Dr. Aisha Khan">
+                                <h3>Dr. Aisha Khan</h3>
+                                <p class="title">Chief Medical Officer</p>
+                                <p>Dr. Khan provides expert clinical oversight, ensuring our testing protocols adhere to the highest medical standards and that your results are clinically sound.</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="https://via.placeholder.com/150?text=Ben Carter" alt="Ben Carter">
+                                <h3>Ben Carter</h3>
+                                <p class="title">Head of Laboratory Operations</p>
+                                <p>Ben meticulously manages our partnerships with our network of certified laboratories, guaranteeing the efficiency and quality of our testing processes.</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="https://via.placeholder.com/150?text=Sarah Miller" alt="Sarah Miller">
+                                <h3>Sarah Miller</h3>
+                                <p class="title">Customer Support Manager</p>
+                                <p>Sarah leads our customer support team, ensuring that your experience with Easy Bloods is seamless, supportive, and that any queries you have are addressed promptly and effectively.</p>
+                            </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 20px;">
+                                <a href="/our-values" class="button secondary" style="background-color: #CE6A85; color: #fff; border: 2px solid #CE6A85;">Our Core Values</a>
+                            </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div class="container">
+                    <div class="footer-bottom" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+                        <p style="color: #f9f9f9; margin: 0; font-size: 0.9em;">&copy; 2025 Easy Bloods. All rights reserved.</p>
+                        <div class="footer-social" style="text-align: right;">
+                            <h3 style="color: #CE6A85; margin-bottom: 10px;">Follow Us</h3>
+                            <a href="#" aria-label="Facebook" style="color: #f9f9f9; font-size: 1.5em; margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter" style="color: #f9f9f9; font-size: 1.5em; margin-right: 10px;"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram" style="color: #f9f9f9; font-size: 1.5em; margin-right: 10px;"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn" style="color: #f9f9f9; font-size: 1.5em;"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <nav style="margin-top: 10px; width: 100%; text-align: center;">
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 20px; justify-content: center;">
+                                <li ><a href="/privacy-policy" style="color: #f9f9f9;">Privacy Policy</a></li>
+                                <li ><a href="/terms-of-service" style="color: #f9f9f9;">Terms of Service</a></li>
+                                <li ><a href="/sitemap" style="color: #f9f9f9;">Sitemap</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </footer>
+
+            <script>
+                // No specific JavaScript needed for this basic About Us page layout.
+                // The script from the previous pages is not relevant here.
+            </script>
+
+        </body>
+        </html>
+<!-- partial -->
+  
+</body>
+</html>
